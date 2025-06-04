@@ -8,8 +8,8 @@
 
 This project implements an intelligent **LLM loop** to automate resume customization for job applications in **computer science and machine learning** fields. It combines two specialized AI agents:
 
-- ✍️ **Resume Generator Agent**: Tailors the user's original resume to match a new job description, inserting relevant keywords and removing irrelevant content.
-- 🧑‍⚖️ **Resume Judge Agent**: Evaluates the modified resume across six critical hiring criteria and provides rewrite instructions only for the weak areas.
+- **Resume Generator Agent**: Tailors the user's original resume to match a new job description, inserting relevant keywords and removing irrelevant content.
+- **Resume Judge Agent**: Evaluates the modified resume across six critical hiring criteria and provides rewrite instructions only for the weak areas.
 
 This architecture simulates a real-world feedback loop between a job applicant, a resume writer, and a recruiter.
 
@@ -17,12 +17,12 @@ This architecture simulates a real-world feedback loop between a job applicant, 
 
 ## 🚀 Key Features
 
-- ✅ **LLM-Orchestrated Feedback Loop**: Uses a modular "Judge + Generator" system that mimics iterative human editing.
-- 🧠 **AI Agent Reasoning**: Employs task-specific prompting and chain-of-thought evaluation to enforce strict resume guidelines.
-- 💡 **LLM Loop Architecture**: Inspired by recent LLM agent frameworks for autonomous refinement workflows.
-- 📄 **Markdown-Based Resume Editing**: Easy to diff and track changes.
-- 🔒 **No Hallucinations Policy**: Resume generator is constrained not to fabricate experiences, enforced by the Judge agent.
-- ⚖️ **Precision Evaluation**: Judge evaluates each criterion independently and only generates rewrite instructions for failed ones.
+- **LLM-Orchestrated Feedback Loop**: Uses a modular "Judge + Generator" system that mimics iterative human editing.
+- **AI Agent Reasoning**: Employs task-specific prompting and chain-of-thought evaluation to enforce strict resume guidelines.
+- **LLM Loop Architecture**: Inspired by recent LLM agent frameworks for autonomous refinement workflows.
+- **Markdown-Based Resume Editing**: Easy to diff and track changes.
+- **No Hallucinations Policy**: Resume generator is constrained not to fabricate experiences, enforced by the Judge agent.
+- **Precision Evaluation**: Judge evaluates each criterion independently and only generates rewrite instructions for failed ones.
 
 ---
 
