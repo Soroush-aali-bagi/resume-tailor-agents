@@ -13,7 +13,7 @@ This project implements an intelligent **LLM loop** to automate resume customiza
 
 This architecture simulates a real-world feedback loop between a job applicant, a resume writer, and a recruiter.
 
----
+
 
 ## 🚀 Key Features
 
@@ -24,7 +24,7 @@ This architecture simulates a real-world feedback loop between a job applicant, 
 - **No Hallucinations Policy**: Resume generator is constrained not to fabricate experiences, enforced by the Judge agent.
 - **Precision Evaluation**: Judge evaluates each criterion independently and only generates rewrite instructions for failed ones.
 
----
+
 
 ## Project Structure
 
